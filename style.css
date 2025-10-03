@@ -1,0 +1,116 @@
+#validation {
+    color: red;
+    white-space: pre-line;
+    /* if \n not working */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: black;
+}
+
+legend {
+    font-weight: bold;
+    color: #444;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 95%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #6f6c6c;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(71, 140, 223);
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue;
+}
+
+#wrongZip {
+    color: red;
+    font-size: 0.9em;
+}
+
+#nameFeedback {
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
+#suggest {
+    margin-left: 8px;
+    font-size: 0.9em;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+span {
+    display: inline-block;
+    margin: 3px 0;
+}
+
+option {
+    padding: 4px;
+    background-color: #fff;
+}
+
+fieldset:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.5);
+}
+
+legend {
+    padding: 0 6px;
+    font-size: 1.1em;
+}
+
+form {
+    margin-top: 20px;
+}
+
+div {
+    margin-bottom: 6px;
+}
+
+input:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+}
